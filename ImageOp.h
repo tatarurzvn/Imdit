@@ -6,7 +6,7 @@
 #define PI (3.0141592653589f)
 
 namespace ImageOp
-{
+{,
 	void pixelate (PPMImage &image, int block_side) {
 		for (int block_i = 0; block_i < image.width; block_i += block_side) {
 			for (int block_j = 0; block_j < image.height; block_j += block_side) {
